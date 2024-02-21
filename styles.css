@@ -1,0 +1,132 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:white;
+}
+#container{
+    margin: 0 auto;
+}
+#first-section{
+    height:auto;
+}
+#sparrow-logo-left{
+    display: flex;
+    margin:38px 27px 18px 18px;
+    font-family: "Poppins", sans-serif;
+}
+#navbar{
+    background-color:#372459;
+}
+
+#navbar-inner {
+    display:flex;
+    margin: 0 auto;
+    width:90%;
+    
+}
+
+#home-menus{
+    display:flex;
+    margin:39px 159px 18px 25px;
+    /* justify-content: center; */
+   
+
+    
+}
+#home-menus div {
+    margin: 1px 5px 1px 12px;
+    
+    
+   
+    
+}
+.menu{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      
+}
+span{
+    vertical-align: middle;
+    transition: transform 0.2s;
+}
+.menu:hover div span{
+    transform:rotate(180deg);
+}
+
+#language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#language img{
+    width:30px;
+    height:30px;
+}
+#choose-language{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:39px 8px 17px 49px;
+    
+}
+#world{
+    padding:6px;
+}
+#right{
+    display: flex;
+    align-items: baseline;
+}
+
+
+#login{
+    margin:31px 8px 17px 47px;
+   
+}
+#login button{
+    background-color: #372459;
+    color: #4a9ca6;
+    border:2px solid #4a9ca6;
+    font-weight: bold;
+    font-size: medium;
+    margin:11px 8px 2px 2px;
+    padding: 5px 10px 5px 10px;
+    border-radius:5px;
+}
+#sign-up{
+    margin:4px 34px 3px 3px;
+}
+#sign-up button{
+    background-color: #372459;
+    color: #4a9ca6;
+    border:2px solid #4a9ca6;
+    font-weight: bold;
+    font-size: medium;
+    margin:38px 15px 7px 0px;;
+    padding: 5px 5px 5px 5px;
+    border-radius:5px;
+}
+.hover-container{
+    width: max-content;
+    background-color: #000;
+    position: absolute;
+    top: 100%; left: -50%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:20px 10px;
+}
+.left-column{
+    padding:10px 10px;
+}
+.right-column{
+    padding:10px 10px;
+
+}
+.left-box{
+    padding:10px 10px;
+}
+.right-box{
+    padding:10px 10px;
+}
